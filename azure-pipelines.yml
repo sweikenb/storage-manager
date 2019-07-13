@@ -6,6 +6,14 @@
 trigger:
 - master
 - develop
+- tags
+
+pr:
+- master
+- develop
+- feature/*
+- hotfix/*
+- release/*
 
 pool:
   vmImage: 'ubuntu-latest'
